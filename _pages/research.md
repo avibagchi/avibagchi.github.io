@@ -34,8 +34,10 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
+<h4>Watermarking Discrete Diffusion Language Models</h4>
 
-Example description
+Watermarking has emerged as a promising technique to track AI-generated content and differentiate it from authentic human creations. While prior work extensively studies watermarking for autoregressive large language models (LLMs) and image diffusion models, none address discrete diffusion language models, which are becoming popular due to their high inference throughput. We introduce the first watermarking method for discrete diffusion models by applying the distribution-preserving Gumbel-max trick at every diffusion step and seeding the randomness with the sequence index to enable reliable detection.
+
+<a href="https://arxiv.org/pdf/2511.02083" target="_blank">[Paper PDF]</a>
 </div>
 </div>

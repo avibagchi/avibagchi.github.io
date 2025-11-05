@@ -11,9 +11,11 @@ permalink: /about/
 
 <div class="jumbotron">
 <div class="row">
+{% if member.photo %}
 <div class="col-sm-4">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
 </div>
+{% endif %}
 <div class="col-sm-8 col-xs-12">
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.info }}</i></h4>

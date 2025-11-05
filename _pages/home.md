@@ -5,28 +5,37 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+My name is Avi Bagchi, and I am a senior at the University of Pennsylvania studying Computer Science. My research aims to develop algorithms that guarantee the reliability and security of machine learning models. I recently developed the first watermarking method for discrete diffusion language models. I am applying to PhD programs for admission in Fall 2026.
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
-
-<div class="container">
+<div class="jumbotron">
 <div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
-</center>
+<div class="col-md-12">
+  <h4>Experience</h4>
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 15px;">
+      <strong>Undergraduate Researcher</strong><br/>
+      <span style="font-size: 0.95em; color: #555; font-weight: 400;">University of Illinois Urbana-Champaign</span><br/>
+      <span style="color: #666;">June 2024 - Present</span>
+    </li>
+    
+    <li style="margin-bottom: 15px;">
+      <strong>Research Intern</strong><br/>
+      <span style="font-size: 0.95em; color: #555; font-weight: 400;">MIT Lincoln Laboratory, Lexington, MA</span><br/>
+      <span style="color: #666;">May 2025 - Present</span>
+    </li>
+    
+    <li style="margin-bottom: 15px;">
+      <strong>Quantitative Research Intern</strong><br/>
+      <span style="font-size: 0.95em; color: #555; font-weight: 400;">Nebula Research and Development, New York, NY</span><br/>
+      <span style="color: #666;">October 2023 - August 2024</span>
+    </li>
+    
+    <li style="margin-bottom: 15px;">
+      <strong>Undergraduate Researcher</strong><br/>
+      <span style="font-size: 0.95em; color: #555; font-weight: 400;">The Wharton School, Philadelphia, PA</span><br/>
+      <span style="color: #666;">August 2022 - May 2024</span>
+    </li>
+  </ul>
 </div>
 </div>
-<br/>
-
-### About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+</div>

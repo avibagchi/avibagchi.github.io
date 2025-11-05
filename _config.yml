@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Avi Bagchi
+email: aviba@seas.upenn.edu
+description: Academic webpage of Avi Bagchi
 baseurl: ""
 url: ""
 
@@ -12,9 +12,9 @@ url: ""
 
 # Footer info
 affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
+  Avi Bagchi<br/>
+  BSE in Computer Science<br/>
+  University of Pennsylvania
 
 location: >
   California Institute of Technology<br/>
@@ -22,18 +22,14 @@ location: >
   Pasadena, CA 91125
 
 contact: >
-  <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
+  <a href="mailto:aviba@seas.upenn.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Avi via email</a> <br/>
   <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
 
 # Pages shown in navbar
 nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
+  # - name: publications
+  # - name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
   - name: blogs
 
 include:
@@ -62,8 +58,8 @@ kramdown:
 plugins: ["jekyll/scholar"]
 
 scholar:
-  last_name: Doe
-  first_name: [John]
+  last_name: Bagchi
+  first_name: [Avi]
 
   style: citesty
   locale: en
