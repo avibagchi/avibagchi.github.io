@@ -1,15 +1,15 @@
 - name: Avi Bagchi
   # photo: headshot.jpg
-  info: BSE in Computer Science, University of Pennsylvania
+  info: BSE in Computer Science (2022-2026), University of Pennsylvania
   email: aviba@seas.upenn.edu
   github: https://github.com/avibagchi
   scholar: https://scholar.google.com/citations?user=KRHWo5YAAAAJ&hl=en
-  cv: cv/cv.pdf
+  cv: Avi_s_Resume (46).pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "BSE in Computer Science, University of Pennsylvania",
+      "BSE in Computer Science (2022-2026), University of Pennsylvania",
     ]
 
   educationshort:
-    ["BSE in Computer Science, University of Pennsylvania"]
+    ["BSE in Computer Science (2022-2026), University of Pennsylvania"]

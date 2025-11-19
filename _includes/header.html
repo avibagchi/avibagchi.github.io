@@ -14,8 +14,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="collapse navbar-collapse" id="navbarColor02">
         <div class="navbar-nav mr-auto">
             <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-            {% for page in site.nav_pages %}       
-                <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
+            {% for page in site.nav_pages %}
+                {% assign page_display = page.name | replace: '-', ' ' %}
+                {% assign words = page_display | split: ' ' %}
+                {% assign capitalized_words = '' %}
+                {% for word in words %}
+                    {% assign capitalized_word = word | capitalize %}
+                    {% if capitalized_words == '' %}
+                        {% assign capitalized_words = capitalized_word %}
+                    {% else %}
+                        {% assign capitalized_words = capitalized_words | append: ' ' | append: capitalized_word %}
+                    {% endif %}
+                {% endfor %}
+                <a class="nav-item nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{ capitalized_words }}</a>
             {% endfor %}
         </div>
     </div>

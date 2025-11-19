@@ -45,14 +45,15 @@
    
    <div class="education-section">
      <div class="education-title">Education</div>
-     <div class="education-item">BSE in Computer Science</div>
+        <div class="education-item">BSE Computer Science</div>
+        <div class="education-item">2022-2026</div>
      <div class="education-item">University of Pennsylvania</div>
    </div>
    
    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank" class="sidebar-link">{{ member.email }}</a>{% endif %}
    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank" class="sidebar-link">Google Scholar</a>{% endif %}
    {% if member.github %}<a href="{{ member.github }}" target="_blank" class="sidebar-link">GitHub</a>{% endif %}
-   {% if member.cv %}<a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank" class="sidebar-link">CV (PDF)</a>{% endif %}
+   {% if member.cv %}<a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv | uri_escape }}" target="_blank" class="sidebar-link">CV (PDF)</a>{% endif %}
   </div>
   </center>
 
