@@ -64,7 +64,7 @@ iframe {
 </div>
 </div>
 
-### Smaller Projects
+### Coming Soon
 
 
 <div class="jumbotron">
@@ -72,7 +72,7 @@ iframe {
 <h4>Towards Efficient and Trustworthy Discrete Diffusion Models</h4>
 <p><strong>Avi Bagchi</strong></p>
 
-<p>Coming soon... Senior Thesis under Professors Weijie Su and Surbhi Goel</p>
+<p>Senior Thesis under Professors Weijie Su and Surbhi Goel</p>
 
 </div>
 </div>
@@ -84,7 +84,7 @@ iframe {
 
 <p><strong>Avi Bagchi</strong>, Sourya Basu, Akhil Bhimaraju, Moulik Choraria, Daniel Alabi, and Lav R. Varshney</p>
 
-<p>Coming soon...extension of "Flow Matching for Generative Modeling" (Lipman et al. 2022)</p>
+<p>Extension of "Flow Matching for Generative Modeling" (Lipman et al. 2022)</p>
 
 </div>
 </div>
@@ -96,13 +96,13 @@ iframe {
 
 <p><strong>Avi Bagchi</strong>, Om Shastri</p>
 
-<p>Coming soon... extension of "Diffusion Factor Models: Generating High-Dimensional Returns with Factor Structure" (Chen et al. 2025)</p>
+<p>Extension of "Diffusion Factor Models: Generating High-Dimensional Returns with Factor Structure" (Chen et al. 2025)</p>
 
 </div>
 </div>
 
 
-
+### Smaller Projects
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
@@ -150,6 +150,8 @@ to Guide Hiring Decisions (2024)</h4>
 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8780188/" target="_blank">[Paper]</a>
 </div>
 </div>
+
+### Archival & Policy Research
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
