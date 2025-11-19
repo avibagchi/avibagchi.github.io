@@ -182,8 +182,10 @@ Through an investigation within the British Archives, this paper uncovers the Br
 
 <p><strong>Avi Bagchi</strong></p>
 
-<p><img src="{{ site.baseurl }}/uzbekistan.png" alt="Uzbekistan Water Insecurity" style="max-width: 50%; height: auto; margin: 20px 0; border-radius: 10px;"></p>
-
+<div style="text-align: left;">
+  <img src="{{ site.baseurl }}/uzbekistan.png" alt="Uzbekistan Water Insecurity" style="max-width: 50%; height: auto; margin: 20px 0; border-radius: 10px;">
+  <p style="font-size: 0.9em; color: #777;"><em>Photo taken in Mongolia (Penn Global Seminar 2025) where I continued water insecurity research.</em></p>
+</div>
 
 <p>
 Institutional fragmentation, contested borders, and "ninja mining" threaten water insecurity in Uzbekistan and Mongolia.
@@ -191,7 +193,7 @@ Institutional fragmentation, contested borders, and "ninja mining" threaten wate
 
 
 
-<p><em>Cited 1. Photo taken in Mongolia (Penn Global Seminar 2025) where I continued water insecurity research. </em></p>
+<p><em>Published in The Global Youth Institute World Food Prize Conference. Cited 1. </em></p>
 <a href="https://www.worldfoodprize.org/documents/filelibrary/youth_programs/2021_gyi/2021_gyi_student_papers/BagchiAvi_21232C23E1BC3.pdf" target="_blank">[PDF]</a>
 </div>
 </div>
