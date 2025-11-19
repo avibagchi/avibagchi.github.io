@@ -39,7 +39,7 @@ I am applying to PhD programs for admission in Fall 2026.
       <strong>Undergraduate Researcher</strong><br/>
       <span style="font-size: 0.95em; color: #555; font-weight: 400;">The Wharton School, Philadelphia, PA</span><br/>
       <span style="color: #666;">August 2022 - May 2024</span><br/>
-      <span style="color: #888;">Supervisor: Professor Prasanna Tambe</span>
+      <span style="color: #888;">Supervisor: Professor Tambe</span>
     </li>
   </ul>
 </div>
