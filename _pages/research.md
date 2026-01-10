@@ -64,7 +64,21 @@ iframe {
 </div>
 </div>
 
-### Coming Soon
+### In Progress
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>Polynomial Flow Matching</h4>
+
+<p><img src="{{ site.baseurl }}/pfm_daigram.png" alt="Polynomial Flow Matching Diagram" style="max-width: 50%; height: auto; margin: 20px 0; border-radius: 10px;"></p>
+
+<p>Preliminary work for ESE 5460 Final Project under Professor Pratik Chaudhari</p>
+<p>Continuing with Sourya Basu, Lav R. Varshney, Daniel Alabi</p>
+
+<a href="{{ site.baseurl }}/PFM.pdf" target="_blank">[PDF]</a>
+
+</div>
+</div>
 
 
 <div class="jumbotron">
@@ -80,21 +94,9 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
-<h4>Polynomial Flow Matching</h4>
+<h4>Diffusion Factor Models</h4>
 
-<p><strong>Avi Bagchi</strong>, Sourya Basu, Akhil Bhimaraju, Moulik Choraria, Daniel Alabi, and Lav R. Varshney</p>
-
-<p>Extension of "Flow Matching for Generative Modeling" (Lipman et al. 2022)</p>
-
-</div>
-</div>
-
-
-<div class="jumbotron">
-<div class="col-md-12 col-sm-12">
-<h4>Discrete Diffusion Factor Models</h4>
-
-<p><strong>Avi Bagchi</strong>, Om Shastri</p>
+<p><strong>Avi Bagchi</strong>, Om Shastri, Michael Tesfaye</p>
 
 <p>Extension of "Diffusion Factor Models: Generating High-Dimensional Returns with Factor Structure" (Chen et al. 2025)</p>
 
@@ -103,6 +105,18 @@ iframe {
 
 
 ### Smaller Projects
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
+<h4>On the PAC Learnability of Distortion-Free Language Model Watermarks</h4>
+
+<p><strong>Avi Bagchi</strong>, Michael Tesfaye</p>
+<p>CIS 6250 Final Project under Professor Michael Kearns</p>
+
+<a href="{{ site.baseurl }}/CIS_6250___Final_Project%20(8).pdf" target="_blank">[PDF]</a>
+
+</div>
+</div>
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
