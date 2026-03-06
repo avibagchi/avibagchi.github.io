@@ -42,7 +42,7 @@ iframe {
 
 <p><span style="color: #1565c0; background-color: #e3f2fd; padding: 8px 12px; border-radius: 6px; display: inline-block; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 600;">ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities (Poster) </span></p>
 
-<a href="https://arxiv.org/abs/2511.02083" target="_blank">[arXiv PDF]</a> | <a href="{{ site.baseurl }}/Watermarking_Presentation_10_30%20(2).pdf" target="_blank">[Slides]</a>
+<a href="https://arxiv.org/pdf/2511.02083" target="_blank">[arXiv PDF]</a> | <a href="{{ site.baseurl }}/Watermarking_Presentation_10_30%20(2).pdf" target="_blank">[Slides]</a>
 </div>
 </div>
 
@@ -67,7 +67,7 @@ iframe {
 
 <p><span style="color: #1565c0; background-color: #e3f2fd; padding: 8px 12px; border-radius: 6px; display: inline-block; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 600;">Presentation to Division 6 at MIT Lincoln Labs.</span></p>
 
-<a href="https://arxiv.org/abs/2511.14640" target="_blank">[arXiv PDF]</a>
+<a href="https://arxiv.org/pdf/2511.14640" target="_blank">[arXiv PDF]</a>
 </div>
 </div>
 
