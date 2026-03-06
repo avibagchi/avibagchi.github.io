@@ -7,7 +7,7 @@ permalink: /
 
 My name is Avi Bagchi, and I am a senior at the University of Pennsylvania studying computer science. My research aims to develop algorithms that guarantee the reliability and security of machine learning models. I am originally from Loudonville, NY. 
 
-I am applying to PhD programs for admission in Fall 2026.
+I am entering a PhD Program in Fall 2026.
 
 <div class="jumbotron">
 <div class="row">
