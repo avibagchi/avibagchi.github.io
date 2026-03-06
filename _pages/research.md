@@ -167,7 +167,7 @@ to Guide Hiring Decisions</h4>
 <p><img src="{{ site.baseurl }}/images/southseabubble.png" alt="The South Sea Bubble by William Hogarth" style="max-width: 35%; height: auto; margin: 20px 0; border-radius: 10px;"></p>
 
 <p><span style="color: #1565c0; background-color: #e3f2fd; padding: 8px 12px; border-radius: 6px; display: inline-block; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 600;">The Concord Review V32, No. 2</span></p>
-<a href="{{ site.baseurl }}/The%20South%20Sea%20Bubble.pdf" target="_blank">[PDF]</a>
+<a href="{{ site.baseurl }}/The%20South%20Sea%20Bubble.pdf" target="_blank">[PDF]</a> | <a href="https://www.amazon.com/TCR-Singles-32-2-South-Bubble/dp/B09MYQ94NV" target="_blank">[Amazon]</a>
 </div>
 </div>
 
