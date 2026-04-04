@@ -42,7 +42,7 @@ iframe {
 
 <p><span style="color: #1565c0; background-color: #e3f2fd; padding: 8px 12px; border-radius: 6px; display: inline-block; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 600;">ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities (Poster) </span></p>
 
-<a href="https://arxiv.org/pdf/2511.02083" target="_blank">[arXiv PDF]</a> | <a href="{{ site.baseurl }}/Watermarking_Presentation_10_30%20(2).pdf" target="_blank">[Slides]</a>
+<a href="https://arxiv.org/pdf/2511.02083" target="_blank">[PDF]</a> | <a href="{{ site.baseurl }}/Watermarking_Presentation_10_30%20(2).pdf" target="_blank">[Slides]</a>
 </div>
 </div>
 
@@ -53,6 +53,8 @@ iframe {
 <p><strong>Avi Bagchi</strong>, Om Shastri, Michael Tesfaye</p>
 
 <p><span style="color: #1565c0; background-color: #e3f2fd; padding: 8px 12px; border-radius: 6px; display: inline-block; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 600;">ICLR 2026 Workshop on Time Series in the Age of Large Models (Poster)</span></p>
+
+<a href="{{ site.baseurl }}/113_Factor_Dimensionality_and_%20%282%29.pdf" target="_blank">[PDF]</a>
 
 </div>
 </div>
@@ -67,7 +69,7 @@ iframe {
 
 <p><span style="color: #1565c0; background-color: #e3f2fd; padding: 8px 12px; border-radius: 6px; display: inline-block; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-weight: 600;">Presentation to Division 6 at MIT Lincoln Labs.</span></p>
 
-<a href="https://arxiv.org/pdf/2511.14640" target="_blank">[arXiv PDF]</a>
+<a href="https://arxiv.org/pdf/2511.14640" target="_blank">[PDF]</a>
 </div>
 </div>
 
@@ -136,7 +138,7 @@ to Guide Hiring Decisions</h4>
 
 
 
-<a href="https://arxiv.org/pdf/2404.03086" target="_blank">[arXiv PDF]</a>
+<a href="https://arxiv.org/pdf/2404.03086" target="_blank">[PDF]</a>
 </div>
 </div>
 

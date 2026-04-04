@@ -1,6 +1,6 @@
 - name: Avi Bagchi
   photo: SLO_7141-web.jpg
-  info: BSE in Computer Science (2022-2026), University of Pennsylvania
+  info: PhD (incoming), The University of Texas at Austin; BSE in Computer Science (2022-2026), University of Pennsylvania
   email: aviba@seas.upenn.edu
   github: https://github.com/avibagchi
   scholar: https://scholar.google.com/citations?user=KRHWo5YAAAAJ&hl=en
@@ -8,8 +8,12 @@
   # Change the items in "education" you have (up to 6)
   education:
     [
+      "PhD in Computer Science (2026-), The University of Texas at Austin",
       "BSE in Computer Science (2022-2026), University of Pennsylvania",
     ]
 
   educationshort:
-    ["BSE in Computer Science (2022-2026), University of Pennsylvania"]
+    [
+      "PhD (incoming), UT Austin",
+      "BSE in Computer Science (2022-2026), University of Pennsylvania",
+    ]

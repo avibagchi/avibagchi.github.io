@@ -5,9 +5,9 @@ sitemap: false
 permalink: /
 ---
 
-My name is Avi Bagchi, and I am a senior at the University of Pennsylvania studying computer science. My research aims to develop algorithms that guarantee the reliability and security of machine learning models. I am originally from Loudonville, NY. 
+I am a senior at the University of Pennsylvania studying computer science. My research aims to develop algorithms that guarantee the reliability and security of machine learning models. I am currently interested in diffusion models.
 
-I am entering a PhD Program in Fall 2026.
+I will begin my PhD in Computer Science at the University of Texas at Austin in Fall 2026, under the supervision of Professor Sanjay Shakkottai (Director of Center for Generative AI). 
 
 <div class="jumbotron">
 <div class="row">
