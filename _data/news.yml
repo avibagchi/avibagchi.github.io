@@ -1,6 +1,11 @@
-- date: 1 January, 1941
-  headline: "Example news here"
+- date: May 2026
+  headline: 'Graduated from UPenn <em>summa cum laude</em>. Submitted senior thesis: "Toward Trustworthy AI: Robustness, Generalization, and Provenance".'
 
-- date: 1 January, 1940
-  headline: "Example news here"
+- date: March 2026
+  headline: "Committed to the PhD program in Computer Science at UT Austin, advised by Professor Sanjay Shakkottai."
 
+- date: Spring 2026
+  headline: "Presented posters at ICLR 2026 workshops on trustworthy AI and time series modeling."
+
+- date: May 2025
+  headline: "Summer research at MIT Lincoln Laboratory (Group 64) on tactical satellite communications."

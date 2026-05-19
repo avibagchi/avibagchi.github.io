@@ -1,0 +1,30 @@
+{% for member in site.data.pi %}
+<div class="profile-header" id="about" markdown="0">
+{% if member.photo %}
+<img class="profile-photo" src="{{ site.baseurl }}/images/{{ member.photo }}" alt="{{ member.name }}">
+{% endif %}
+<h1 class="profile-name">{{ member.name }}</h1>
+<p class="profile-links">
+{% if member.email %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>{% endif %}
+</p>
+<p class="profile-links profile-links-secondary">
+{% if member.cv %}<a href="{{ site.baseurl }}/{{ member.cv | uri_escape }}" target="_blank">CV</a>{% endif %}
+{% if member.scholar %}{% if member.cv %} / {% endif %}<a href="{{ member.scholar }}" target="_blank">Google Scholar</a>{% endif %}
+{% if member.github %}{% if member.cv or member.scholar %} / {% endif %}<a href="{{ member.github }}" target="_blank">GitHub</a>{% endif %}
+{% if member.linkedin %}{% if member.cv or member.scholar or member.github %} / {% endif %}<a href="{{ member.linkedin }}" target="_blank">LinkedIn</a>{% endif %}
+</p>
+<div id="education" class="profile-education">
+<div class="profile-inline-heading">Education</div>
+<div class="education-block">
+<div class="education-item"><strong>PhD in Computer Science</strong> (incoming)</div>
+<div class="education-item">The University of Texas at Austin</div>
+<div class="education-item">2026-</div>
+</div>
+<div class="education-block">
+<div class="education-item"><strong>BSE in Computer Science</strong> (<em>summa cum laude</em>)</div>
+<div class="education-item">University of Pennsylvania</div>
+<div class="education-item">2022-2026</div>
+</div>
+</div>
+</div>
+{% endfor %}

@@ -88,3 +88,230 @@ img {
 .MathJax_ref {
   fill: #00bc8c!important;
 }
+
+/* Single-page academic layout (atutej.github.io / bkim34.github.io style) */
+.site-nav-minimal {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.site-nav-minimal .navbar-brand {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.site-nav-minimal .nav-link {
+  font-size: 0.95rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.single-page {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.profile-header {
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.profile-photo {
+  float: right;
+  width: 200px;
+  max-width: 38%;
+  margin: 0 0 0 1.25rem;
+  border-radius: 6px;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.profile-links {
+  margin-bottom: 0.25rem;
+}
+
+.profile-links-secondary {
+  margin-bottom: 0.5rem;
+}
+
+.profile-education {
+  margin-top: 0.25rem;
+  max-width: calc(62% - 1rem);
+}
+
+.profile-inline-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem 0;
+  padding: 0;
+  border: none;
+}
+
+.profile-education .education-block {
+  margin-bottom: 0.5rem;
+}
+
+.profile-education .education-block:last-child {
+  margin-bottom: 0;
+}
+
+.profile-education .education-item {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.1rem;
+}
+
+.section-after-header {
+  margin-top: 1.25rem !important;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-list li {
+  margin-bottom: 0.65rem;
+}
+
+.profile-links a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+.single-page section {
+  margin-top: 2.25rem;
+}
+
+.single-page section > h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.papers-subsection {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #444;
+}
+
+.papers-subsection-nested {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #555;
+}
+
+.papers-note {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.paper-entry {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #eee;
+}
+
+.paper-entry:last-child {
+  border-bottom: none;
+}
+
+.paper-entry h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.paper-entry img {
+  max-width: 35%;
+  height: auto;
+  margin: 0.75rem 0;
+  border-radius: 8px;
+}
+
+.venue-badge {
+  color: #1565c0;
+  background-color: #e3f2fd;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 0.92em;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.venue-badge a {
+  color: #1565c0;
+}
+
+.paper-links a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+.figure-caption {
+  font-size: 0.9em;
+  color: #777;
+}
+
+.experience-list,
+.education-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience-list li {
+  margin-bottom: 1.25rem;
+}
+
+.exp-org {
+  color: #555;
+}
+
+.exp-dates {
+  color: #666;
+}
+
+.exp-super {
+  color: #888;
+  font-size: 0.95em;
+}
+
+.single-page .jumbotron {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .profile-photo {
+    float: none;
+    display: block;
+    max-width: 55%;
+    margin: 0 auto 1rem auto;
+  }
+
+  .profile-education {
+    max-width: 100%;
+  }
+}

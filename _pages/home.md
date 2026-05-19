@@ -1,47 +1,65 @@
 ---
-title: "Home"
-layout: homelay
+title: ""
+layout: singlepage
 sitemap: false
 permalink: /
 ---
 
-I am a senior at the University of Pennsylvania studying computer science. My research aims to develop algorithms that guarantee the reliability and security of machine learning models. I am currently interested in diffusion models.
+{% include profile_header.html %}
 
-I will begin my PhD in Computer Science at the University of Texas at Austin in Fall 2026, under the supervision of Professor Sanjay Shakkottai (Director of Center for Generative AI). 
+<section id="news" class="section-after-header">
+<h2>News</h2>
+<ul class="news-list">
+  {% for item in site.data.news %}
+  <li><strong>{{ item.date }}</strong> — {{ item.headline }}</li>
+  {% endfor %}
+</ul>
+</section>
 
-<div class="jumbotron">
-<div class="row">
-<div class="col-md-12">
-  <h4>Experience</h4>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li style="margin-bottom: 15px;">
-      <strong>Undergraduate Researcher</strong><br/>
-      <span style="font-size: 0.95em; color: #555; font-weight: 400;">University of Illinois Urbana-Champaign (Information & Intelligence Group)</span><br/>
-      <span style="color: #666;">June 2024 - Present</span><br/>
-      <span style="color: #888;">Supervisors: Professors Lav Varshney & Daniel Alabi</span>
-    </li>
-    
-    <li style="margin-bottom: 15px;">
-      <strong>Research Intern (Tactical Satellite Communications)</strong><br/>
-      <span style="font-size: 0.95em; color: #555; font-weight: 400;">MIT Lincoln Laboratory (Group 64), Lexington, MA</span><br/>
-      <span style="color: #666;">May 2025 - August 2025</span><br/>
-      <span style="color: #888;">Supervisor: Dwight Hutchenson</span>
-    </li>
-    
-    <li style="margin-bottom: 15px;">
-      <strong>Quantitative Research Intern</strong><br/>
-      <span style="font-size: 0.95em; color: #555; font-weight: 400;">Nebula Research and Development, New York, NY</span><br/>
-      <span style="color: #666;">October 2023 - August 2024</span><br/>
-      <span style="color: #888;">Supervisor: Dr. Limin Wang</span>
-    </li>
-    
-    <li style="margin-bottom: 15px;">
-      <strong>Undergraduate Researcher</strong><br/>
-      <span style="font-size: 0.95em; color: #555; font-weight: 400;">The Wharton School, Philadelphia, PA</span><br/>
-      <span style="color: #666;">August 2022 - May 2024</span><br/>
-      <span style="color: #888;">Supervisor: Professor Prasanna Tambe</span>
-    </li>
-  </ul>
-</div>
-</div>
-</div>
+<section id="research-interests">
+<h2>Research Interests</h2>
+<p>
+I am interested in improving the reliability and security of AI systems, with a current focus on diffusion models.
+</p>
+</section>
+
+<section id="papers">
+<h2>Papers</h2>
+{% include research_content.html %}
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<ul class="experience-list">
+  <li>
+    <strong>Graduate Student Researcher</strong><br/>
+    <span class="exp-org">The University of Texas at Austin</span><br/>
+    <span class="exp-dates">May 2026 – Present</span><br/>
+    <span class="exp-super">Supervisor: Professor Sanjay Shakkottai</span>
+  </li>
+  <li>
+    <strong>Undergraduate Student Researcher</strong><br/>
+    <span class="exp-org">University of Illinois Urbana-Champaign (Information &amp; Intelligence Group)</span><br/>
+    <span class="exp-dates">June 2024 – May 2026</span><br/>
+    <span class="exp-super">Supervisors: Professors Lav Varshney &amp; Daniel Alabi</span>
+  </li>
+  <li>
+    <strong>Research Intern (Tactical Satellite Communications)</strong><br/>
+    <span class="exp-org">MIT Lincoln Laboratory (Group 64), Lexington, MA</span><br/>
+    <span class="exp-dates">May 2025 – August 2025</span><br/>
+    <span class="exp-super">Supervisor: Dwight Hutchenson</span>
+  </li>
+  <li>
+    <strong>Quantitative Research Intern</strong><br/>
+    <span class="exp-org">Nebula Research and Development, New York, NY</span><br/>
+    <span class="exp-dates">October 2023 – August 2024</span><br/>
+    <span class="exp-super">Supervisor: Dr. Limin Wang</span>
+  </li>
+  <li>
+    <strong>Undergraduate Researcher</strong><br/>
+    <span class="exp-org">The Wharton School, Philadelphia, PA</span><br/>
+    <span class="exp-dates">August 2022 – May 2024</span><br/>
+    <span class="exp-super">Supervisor: Professor Prasanna Tambe</span>
+  </li>
+</ul>
+</section>
