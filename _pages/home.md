@@ -7,14 +7,7 @@ permalink: /
 
 {% include profile_header.html %}
 
-<section id="news" class="section-after-header">
-<h2>News</h2>
-<ul class="news-list">
-  {% for item in site.data.news %}
-  <li><strong>{{ item.date }}</strong> — {{ item.headline }}</li>
-  {% endfor %}
-</ul>
-</section>
+{% include news_section.html %}
 
 <section id="research-interests">
 <h2>Research Interests</h2>
