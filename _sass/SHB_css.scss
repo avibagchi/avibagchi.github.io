@@ -177,13 +177,21 @@ img {
 }
 
 .news-summary {
-  font-size: 1.35rem;
-  font-weight: 600;
   cursor: pointer;
   list-style: none;
   padding-bottom: 0.25rem;
   margin-bottom: 0.75rem;
   border-bottom: 1px solid #ddd;
+}
+
+.news-summary h2.news-heading {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .news-summary::-webkit-details-marker {
